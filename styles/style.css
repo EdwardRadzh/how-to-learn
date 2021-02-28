@@ -120,11 +120,6 @@
   font-weight: bold;
 }
 
-.digits {
-  /* display: flex;
-  justify-content: center; */
-}
-
 .section-title {
   line-height: 1.15;
   font-size: 60px;
@@ -146,7 +141,6 @@
   justify-content: space-between;
   margin: 0 auto;
   width: 1100px;
-
 }
 
 .table__cell {
@@ -201,10 +195,129 @@
   font-weight: normal;
   color: #2f80ed;
 }
+
+.kaufman {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.section-title__theme_dark {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.section-subtitle__theme_dark {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  margin-top: 0;
+  z-index: 0;
+}
+
+.table_theme_dark {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1100px;
+  margin-bottom: 90px;
+}
+
+.table__heading_theme_dark {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  background-color:  #1f1f1f;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f2f2f2;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.footer__column-links {
+  margin-top: 0;
+  margin-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__column-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
